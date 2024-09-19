@@ -71,7 +71,6 @@ nano .env
 
 ```console
 screen -S ora
-cd tora-docker-compose
 sysctl vm.overcommit_memory=1
 docker compose up
 ```
